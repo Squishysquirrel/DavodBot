@@ -15,7 +15,7 @@ public class DefinitelyNotDave {
     // do config stuff here
     private static void loadConfiguration() {
         // read from file here
-        LOGIN_TOKEN = "";
+        LOGIN_TOKEN = "MTgyMjg4MTA2MzgzMzQzNjE3.DuC4Ew.7zmGU-io7mjy6v-c80Irek_qzKM";
         COMMAND_KEY = "!";
     }
 
