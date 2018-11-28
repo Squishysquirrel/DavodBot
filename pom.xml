@@ -1,0 +1,30 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>bot.blackhole</groupId>
+    <artifactId>bot.blackhole.DefinitelyNotDave</artifactId>
+    <version>0.0.1</version>
+    <packaging>jar</packaging>
+
+    <name>DefinitelyNotDave</name>
+    <url>https://github.com/Squishysquirrel/DefintelyNotDave</url>
+
+    <repositories>
+        <repository>
+            <id>jcenter</id>
+            <url>http://jcenter.bintray.com</url>
+        </repository>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+    </repositories>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.github.austinv11</groupId>
+            <artifactId>Discord4J</artifactId>
+            <version>2.10.1</version>
+        </dependency>
+    </dependencies>
+</project>
