@@ -2,7 +2,7 @@ package bot.blackhole;
 
 import org.apache.commons.lang3.ArrayUtils;
 
-import bot.blackhole.AutoGM;
+import bot.blackhole.DefinitelyNotDave;
 
 import sx.blah.discord.api.events.EventSubscriber;
 import sx.blah.discord.handle.impl.events.MessageReceivedEvent;
@@ -13,7 +13,7 @@ public class CommandListener {
 	@EventSubscriber
 	public void onCommandReceive(MessageReceivedEvent event) {
 		String text = event.getMessage().getContent();
-		if (!text.startsWith(AutoGM.COMMAND_KEY))
+		if (!text.startsWith(DefinitelyNotDave.COMMAND_KEY))
 			return;
 		String command;
 		String[] args;
@@ -27,6 +27,6 @@ public class CommandListener {
 			args = null;
 		}
 		CommandEvent commandEvent = new CommandEvent(message, command, message.getAuthor(), args);
-		DavodBot.client.getDispatcher().dispatch(commandEvent);
+		DefinitelyNotDave.client.getDispatcher().dispatch(commandEvent);
 	}
 }
