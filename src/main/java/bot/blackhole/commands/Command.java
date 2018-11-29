@@ -7,6 +7,8 @@ import sx.blah.discord.util.MessageBuilder;
 import sx.blah.discord.util.MissingPermissionsException;
 import sx.blah.discord.util.RateLimitException;
 
+import bot.blackhole.CommandEvent;
+
 public abstract class Command {
 
 	protected final IDiscordClient client;

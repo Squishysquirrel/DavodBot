@@ -3,9 +3,10 @@ package bot.blackhole;
 import org.apache.commons.lang3.ArrayUtils;
 
 import bot.blackhole.DefinitelyNotDave;
+import bot.blackhole.CommandEvent;
 
 import sx.blah.discord.api.events.EventSubscriber;
-import sx.blah.discord.handle.impl.events.MessageReceivedEvent;
+import sx.blah.discord.handle.impl.events.guild.channel.message.MessageReceivedEvent;
 import sx.blah.discord.handle.obj.IMessage;
 
 public class CommandListener {
